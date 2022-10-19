@@ -1,0 +1,291 @@
+{
+    "flowers": [
+        {
+            "id": 1,
+            "color": "Blue",
+            "species": "Hyacinth"
+        },
+        {
+            "id": 2,
+            "color": "Red",
+            "species": "Rose"
+        },
+        {
+            "id": 3,
+            "color": "Red",
+            "species": "Tulip"
+        },
+        {
+            "id": 4,
+            "color": "Orange",
+            "species": "Orchid"
+        },
+        {
+            "id": 5,
+            "color": "Red",
+            "species": "Carnation"
+        },
+        {
+            "id": 6,
+            "color": "Yellow",
+            "species": "Freesia"
+        },
+        {
+            "id": 7,
+            "color": "Pink",
+            "species": "Peruvian Lily"
+        },
+        {
+            "id": 8,
+            "color": "Yellow",
+            "species": "Chrysanthemum"
+        },
+        {
+            "id": 9,
+            "color": "Yellow",
+            "species": "Daffodil"
+        },
+        {
+            "id": 10,
+            "color": "Red",
+            "species": "Poppy"
+        },
+        {
+            "id": 11,
+            "color": "Yellow",
+            "species": "Sunflower"
+        }
+    ],
+    "nurseries": [
+        {
+            "id": 1,
+            "businessName": "We Sell Flowers"
+        },
+        {
+            "id": 2,
+            "businessName": "Flowers 4 Sale"
+        },
+        {
+            "id": 3,
+            "businessName": "Bouquet Banquet"
+        },
+        {
+            "id": 4,
+            "businessName": "Thorns HQ"
+        },
+        {
+            "id": 5,
+            "businessName": "Roses HQ"
+        },
+        {
+            "id": 6,
+            "businessName": "Tulip Palooza"
+        }
+    ],
+    "distributors": [
+        {
+            "id": 1,
+            "businessName": "Keeling, Purdy and Bins",
+            "markup": 11.27,
+            "logo": "https://dynamic.brandcrowd.com/asset/logo/a3adc6bf-8495-41db-be02-2e99c24488c8/logo-search-grid-1x?v=636995384924100000&text=Tromp+and+Sons"
+        },
+        {
+            "id": 2,
+            "businessName": "Lang - Lynch",
+            "markup": 6.13,
+            "logo": "https://dynamic.brandcrowd.com/asset/logo/a3adc6bf-8495-41db-be02-2e99c24488c8/logo-search-grid-1x?v=636995384924100000&text=Tromp+and+Sons"
+        },
+        {
+            "id": 3,
+            "businessName": "Thiel, Rohan and Hilll",
+            "markup": 18.74,
+            "logo": "https://dynamic.brandcrowd.com/asset/logo/a3adc6bf-8495-41db-be02-2e99c24488c8/logo-search-grid-1x?v=636995384924100000&text=Tromp+and+Sons"
+        }
+    ],
+    "retailers": [
+        {
+            "id": 1,
+            "businessName": "Tromp and Sons",
+            "distributorId": 2,
+            "address": "0034 Wintheiser Island",
+            "markup": 22.31,
+            "logo": "https://dynamic.brandcrowd.com/asset/logo/a3adc6bf-8495-41db-be02-2e99c24488c8/logo-search-grid-1x?v=636995384924100000&text=Tromp+and+Sons" 
+        },
+        {
+            "id": 2,
+            "businessName": "Denesik Inc",
+            "distributorId": 1,
+            "address": "5812 Kim Plains",
+            "markup": 32.17,
+            "logo": "https://dynamic.brandcrowd.com/asset/logo/ba896368-8c48-464f-9df5-0f9349ebce24/logo-search-grid-1x?v=637550886179130000&text=Denesik+Inc"
+        },
+        {
+            "id": 3,
+            "businessName": "Bode LLC",
+            "distributorId": 3,
+            "address": "113 Satterfield Squares",
+            "markup": 10.52,
+            "logo": "https://dynamic.brandcrowd.com/asset/logo/bbceec38-5c1a-4f91-9fb2-bf7526210ddf/logo-search-grid-1x?v=637938155493700000&text=Bode+LLC&colorpalette=purple"
+        }
+    ],
+    "nurseryFlowers": [
+        {
+            "id": 1,
+            "nurseryId": 3,
+            "flowerId": 4,
+            "price": 1.23
+        },
+        {
+            "id": 2,
+            "nurseryId": 1,
+            "flowerId": 10,
+            "price": 2.34
+        },
+        {
+            "id": 3,
+            "nurseryId": 2,
+            "flowerId": 7,
+            "price": 3.45
+        },
+        {
+            "id": 4,
+            "nurseryId": 6,
+            "flowerId": 4,
+            "price": 3.12
+        },
+        {
+            "id": 5,
+            "nurseryId": 5,
+            "flowerId": 1,
+            "price": 4.21
+        },
+        {
+            "id": 6,
+            "nurseryId": 1,
+            "flowerId": 4,
+            "price": 5.21
+        },
+        {
+            "id": 7,
+            "nurseryId": 1,
+            "flowerId": 7,
+            "price": 4.52
+        },
+        {
+            "id": 8,
+            "nurseryId": 2,
+            "flowerId": 9,
+            "price": 1.23
+        },
+        {
+            "id": 9,
+            "nurseryId": 2,
+            "flowerId": 6,
+            "price": 1.53
+        },
+        {
+            "id": 10,
+            "nurseryId": 6,
+            "flowerId": 10,
+            "price": 2.14
+        },
+        {
+            "id": 11,
+            "nurseryId": 4,
+            "flowerId": 7,
+            "price": 6.23
+        },
+        {
+            "id": 12,
+            "nurseryId": 3,
+            "flowerId": 1,
+            "price": 2.41
+        },
+        {
+            "id": 13,
+            "nurseryId": 3,
+            "flowerId": 9,
+            "price": 4.21
+        },
+        {
+            "id": 14,
+            "nurseryId": 2,
+            "flowerId": 11,
+            "price": 1.99
+        },
+        {
+            "id": 15,
+            "nurseryId": 5,
+            "flowerId": 6,
+            "price": 2.99
+        },
+        {
+            "id": 16,
+            "nurseryId": 6,
+            "flowerId": 7,
+            "price": 3.99
+        }
+    ],
+    "nurseryDistributors": [
+        {
+            "id": 1,
+            "nurseryId": 1,
+            "distributorId": 1
+        },
+        {
+            "id": 2,
+            "nurseryId": 3,
+            "distributorId": 2
+        },
+        {
+            "id": 3,
+            "nurseryId": 6,
+            "distributorId": 3
+        },
+        {
+            "id": 4,
+            "nurseryId": 5,
+            "distributorId": 3
+        },
+        {
+            "id": 5,
+            "nurseryId": 2,
+            "distributorId": 2
+        },
+        {
+            "id": 6,
+            "nurseryId": 4,
+            "distributorId": 1
+        },
+        {
+            "id": 7,
+            "nurseryId": 4,
+            "distributorId": 1
+        },
+        {
+            "id": 8,
+            "nurseryId": 6,
+            "distributorId": 2
+        },
+        {
+            "id": 9,
+            "nurseryId": 2,
+            "distributorId": 3
+        },
+        {
+            "id": 10,
+            "nurseryId": 1,
+            "distributorId": 3
+        },
+        {
+            "id": 11,
+            "nurseryId": 5,
+            "distributorId": 2
+        },
+        {
+            "id": 12,
+            "nurseryId": 3,
+            "distributorId": 1
+        }
+    ]
+}
